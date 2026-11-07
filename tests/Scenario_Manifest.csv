@@ -1,0 +1,6 @@
+﻿characteristic,sample_range,injected_scenario
+uncoated_width_mm,all,Stable agreement
+coated_width_mm,all,Offset plus value-dependent bias on device B
+uncoated_gap_mm,S041-S060,Higher within-device-B variation
+coating_thickness_um,all,Constant positive device-B bias
+coating_weight_mg_cm2,S076-S120,Late positive device-B shift

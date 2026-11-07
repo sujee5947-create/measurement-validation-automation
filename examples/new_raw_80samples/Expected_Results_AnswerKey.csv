@@ -1,0 +1,6 @@
+﻿characteristic,적용 구간,주입한 시나리오,예상 실패 항목,예상 판정(full),bias,LoA lower,LoA upper,pair pass rate,Pearson r,예상 판정(32 subset)
+uncoated_width_mm,전체,장비B 음(-)의 일정 bias −0.13 (부호 처리 확인),mean_bias,REVIEW,-0.1231,-0.1981,-0.0481,97.5%,0.997,REVIEW
+coated_width_mm,전체,"작은 bias +0.05, 4회 반복 → 정상 일치",없음,PASS,+0.0472,-0.1531,+0.2475,100.0%,0.999,PASS
+uncoated_gap_mm,"S017, S043, S066","장비B 이상치(+0.70) 3개 → 평균 bias·통과율은 OK, LoA만 초과",loa_bounds,REVIEW,+0.0465,-0.2157,+0.3086,96.2%,0.912,REVIEW
+coating_thickness_um,전체,작은 bias +0.10 → 정상 일치 (기존 데이터에선 REVIEW였던 항목),없음,PASS,+0.0858,-0.2129,+0.3846,100.0%,0.999,PASS
+coating_weight_mg_cm2,S001→S080,장비B 점진적 drift 0 → +0.20 (트렌드 차트에서 우상향 확인),"mean_bias, loa_bounds, pair_rate",REVIEW,+0.1040,-0.0454,+0.2534,65.0%,0.994,REVIEW
